@@ -11,7 +11,6 @@
 		E835F5B0229406780095A3AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5AF229406780095A3AA /* ViewController.swift */; };
 		E835F5C0229406F50095A3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E835F5BF229406F50095A3AA /* Main.storyboard */; };
 		E835F5C2229407190095A3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E835F5C1229407190095A3AA /* LaunchScreen.storyboard */; };
-		E835F5C4229407320095A3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E835F5C3229407310095A3AA /* Assets.xcassets */; };
 		E835F5D1229407CA0095A3AA /* ScoreDataCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5C5229407C90095A3AA /* ScoreDataCtrl.swift */; };
 		E835F5D2229407CA0095A3AA /* ZeichenTabelleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5C6229407C90095A3AA /* ZeichenTabelleViewController.swift */; };
 		E835F5D3229407CA0095A3AA /* ZenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5C7229407C90095A3AA /* ZenViewController.swift */; };
@@ -24,6 +23,7 @@
 		E835F5DA229407CA0095A3AA /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5CE229407C90095A3AA /* ScoreViewController.swift */; };
 		E835F5DB229407CA0095A3AA /* ScoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5CF229407CA0095A3AA /* ScoreObject.swift */; };
 		E835F5DC229407CA0095A3AA /* KanaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5D0229407CA0095A3AA /* KanaModel.swift */; };
+		E86E63F0229C7C7E00A409A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86E63EF229C7C7E00A409A0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,6 @@
 		E835F5B9229406790095A3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E835F5BF229406F50095A3AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E835F5C1229407190095A3AA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E835F5C3229407310095A3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SemesterIV/TabletComputing2/BeSensei/BeSensei/Assets.xcassets; sourceTree = "<group>"; };
 		E835F5C5229407C90095A3AA /* ScoreDataCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreDataCtrl.swift; sourceTree = "<group>"; };
 		E835F5C6229407C90095A3AA /* ZeichenTabelleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZeichenTabelleViewController.swift; sourceTree = "<group>"; };
 		E835F5C7229407C90095A3AA /* ZenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZenViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		E835F5CE229407C90095A3AA /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		E835F5CF229407CA0095A3AA /* ScoreObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreObject.swift; sourceTree = "<group>"; };
 		E835F5D0229407CA0095A3AA /* KanaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaModel.swift; sourceTree = "<group>"; };
+		E86E63EF229C7C7E00A409A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				E835F5AD229406780095A3AA /* AppDelegate.swift */,
 				E835F5AF229406780095A3AA /* ViewController.swift */,
 				E835F5BF229406F50095A3AA /* Main.storyboard */,
-				E835F5C3229407310095A3AA /* Assets.xcassets */,
+				E86E63EF229C7C7E00A409A0 /* Assets.xcassets */,
 				E835F5C1229407190095A3AA /* LaunchScreen.storyboard */,
 				E835F5B9229406790095A3AA /* Info.plist */,
 			);
@@ -199,7 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E835F5C2229407190095A3AA /* LaunchScreen.storyboard in Resources */,
-				E835F5C4229407320095A3AA /* Assets.xcassets in Resources */,
+				E86E63F0229C7C7E00A409A0 /* Assets.xcassets in Resources */,
 				E835F5C0229406F50095A3AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
