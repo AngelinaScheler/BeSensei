@@ -9,19 +9,43 @@
 /* Begin PBXBuildFile section */
 		E835F5AE229406780095A3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5AD229406780095A3AA /* AppDelegate.swift */; };
 		E835F5B0229406780095A3AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5AF229406780095A3AA /* ViewController.swift */; };
-		E835F5B3229406780095A3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E835F5B1229406780095A3AA /* Main.storyboard */; };
-		E835F5B5229406790095A3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E835F5B4229406790095A3AA /* Assets.xcassets */; };
-		E835F5B8229406790095A3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E835F5B6229406790095A3AA /* LaunchScreen.storyboard */; };
+		E835F5C0229406F50095A3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E835F5BF229406F50095A3AA /* Main.storyboard */; };
+		E835F5C2229407190095A3AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E835F5C1229407190095A3AA /* LaunchScreen.storyboard */; };
+		E835F5C4229407320095A3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E835F5C3229407310095A3AA /* Assets.xcassets */; };
+		E835F5D1229407CA0095A3AA /* ScoreDataCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5C5229407C90095A3AA /* ScoreDataCtrl.swift */; };
+		E835F5D2229407CA0095A3AA /* ZeichenTabelleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5C6229407C90095A3AA /* ZeichenTabelleViewController.swift */; };
+		E835F5D3229407CA0095A3AA /* ZenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5C7229407C90095A3AA /* ZenViewController.swift */; };
+		E835F5D4229407CA0095A3AA /* ZenMenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5C8229407C90095A3AA /* ZenMenueViewController.swift */; };
+		E835F5D5229407CA0095A3AA /* MainViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5C9229407C90095A3AA /* MainViewProtocol.swift */; };
+		E835F5D6229407CA0095A3AA /* ArcadeDataCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5CA229407C90095A3AA /* ArcadeDataCtrl.swift */; };
+		E835F5D7229407CA0095A3AA /* ZenDataCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5CB229407C90095A3AA /* ZenDataCtrl.swift */; };
+		E835F5D8229407CA0095A3AA /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5CC229407C90095A3AA /* ArcadeViewController.swift */; };
+		E835F5D9229407CA0095A3AA /* ArcadeMenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5CD229407C90095A3AA /* ArcadeMenueViewController.swift */; };
+		E835F5DA229407CA0095A3AA /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5CE229407C90095A3AA /* ScoreViewController.swift */; };
+		E835F5DB229407CA0095A3AA /* ScoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5CF229407CA0095A3AA /* ScoreObject.swift */; };
+		E835F5DC229407CA0095A3AA /* KanaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835F5D0229407CA0095A3AA /* KanaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E835F5AA229406780095A3AA /* BeSensei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeSensei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E835F5AD229406780095A3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E835F5AF229406780095A3AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E835F5B2229406780095A3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E835F5B4229406790095A3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E835F5B7229406790095A3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E835F5B9229406790095A3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E835F5BF229406F50095A3AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E835F5C1229407190095A3AA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E835F5C3229407310095A3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SemesterIV/TabletComputing2/BeSensei/BeSensei/Assets.xcassets; sourceTree = "<group>"; };
+		E835F5C5229407C90095A3AA /* ScoreDataCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreDataCtrl.swift; sourceTree = "<group>"; };
+		E835F5C6229407C90095A3AA /* ZeichenTabelleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZeichenTabelleViewController.swift; sourceTree = "<group>"; };
+		E835F5C7229407C90095A3AA /* ZenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZenViewController.swift; sourceTree = "<group>"; };
+		E835F5C8229407C90095A3AA /* ZenMenueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZenMenueViewController.swift; sourceTree = "<group>"; };
+		E835F5C9229407C90095A3AA /* MainViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewProtocol.swift; sourceTree = "<group>"; };
+		E835F5CA229407C90095A3AA /* ArcadeDataCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcadeDataCtrl.swift; sourceTree = "<group>"; };
+		E835F5CB229407C90095A3AA /* ZenDataCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZenDataCtrl.swift; sourceTree = "<group>"; };
+		E835F5CC229407C90095A3AA /* ArcadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
+		E835F5CD229407C90095A3AA /* ArcadeMenueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcadeMenueViewController.swift; sourceTree = "<group>"; };
+		E835F5CE229407C90095A3AA /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		E835F5CF229407CA0095A3AA /* ScoreObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreObject.swift; sourceTree = "<group>"; };
+		E835F5D0229407CA0095A3AA /* KanaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,66 @@
 		E835F5AC229406780095A3AA /* BeSensei */ = {
 			isa = PBXGroup;
 			children = (
+				E88B95CB229C07A900454404 /* Zeichentabelle */,
+				E88B95CA229C079900454404 /* Models */,
+				E88B95C9229C071E00454404 /* Score */,
+				E88B95C8229C070600454404 /* Zen */,
+				E88B95C7229C06EB00454404 /* Arcade */,
+				E835F5C9229407C90095A3AA /* MainViewProtocol.swift */,
 				E835F5AD229406780095A3AA /* AppDelegate.swift */,
 				E835F5AF229406780095A3AA /* ViewController.swift */,
-				E835F5B1229406780095A3AA /* Main.storyboard */,
-				E835F5B4229406790095A3AA /* Assets.xcassets */,
-				E835F5B6229406790095A3AA /* LaunchScreen.storyboard */,
+				E835F5BF229406F50095A3AA /* Main.storyboard */,
+				E835F5C3229407310095A3AA /* Assets.xcassets */,
+				E835F5C1229407190095A3AA /* LaunchScreen.storyboard */,
 				E835F5B9229406790095A3AA /* Info.plist */,
 			);
 			path = BeSensei;
+			sourceTree = "<group>";
+		};
+		E88B95C7229C06EB00454404 /* Arcade */ = {
+			isa = PBXGroup;
+			children = (
+				E835F5CA229407C90095A3AA /* ArcadeDataCtrl.swift */,
+				E835F5CD229407C90095A3AA /* ArcadeMenueViewController.swift */,
+				E835F5CC229407C90095A3AA /* ArcadeViewController.swift */,
+			);
+			path = Arcade;
+			sourceTree = "<group>";
+		};
+		E88B95C8229C070600454404 /* Zen */ = {
+			isa = PBXGroup;
+			children = (
+				E835F5C8229407C90095A3AA /* ZenMenueViewController.swift */,
+				E835F5C7229407C90095A3AA /* ZenViewController.swift */,
+				E835F5CB229407C90095A3AA /* ZenDataCtrl.swift */,
+			);
+			path = Zen;
+			sourceTree = "<group>";
+		};
+		E88B95C9229C071E00454404 /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				E835F5C5229407C90095A3AA /* ScoreDataCtrl.swift */,
+				E835F5CF229407CA0095A3AA /* ScoreObject.swift */,
+				E835F5CE229407C90095A3AA /* ScoreViewController.swift */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
+		E88B95CA229C079900454404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E835F5D0229407CA0095A3AA /* KanaModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E88B95CB229C07A900454404 /* Zeichentabelle */ = {
+			isa = PBXGroup;
+			children = (
+				E835F5C6229407C90095A3AA /* ZeichenTabelleViewController.swift */,
+			);
+			path = Zeichentabelle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E835F5B8229406790095A3AA /* LaunchScreen.storyboard in Resources */,
-				E835F5B5229406790095A3AA /* Assets.xcassets in Resources */,
-				E835F5B3229406780095A3AA /* Main.storyboard in Resources */,
+				E835F5C2229407190095A3AA /* LaunchScreen.storyboard in Resources */,
+				E835F5C4229407320095A3AA /* Assets.xcassets in Resources */,
+				E835F5C0229406F50095A3AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,30 +212,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E835F5B0229406780095A3AA /* ViewController.swift in Sources */,
+				E835F5D4229407CA0095A3AA /* ZenMenueViewController.swift in Sources */,
+				E835F5D8229407CA0095A3AA /* ArcadeViewController.swift in Sources */,
+				E835F5D9229407CA0095A3AA /* ArcadeMenueViewController.swift in Sources */,
+				E835F5D1229407CA0095A3AA /* ScoreDataCtrl.swift in Sources */,
+				E835F5D3229407CA0095A3AA /* ZenViewController.swift in Sources */,
+				E835F5DB229407CA0095A3AA /* ScoreObject.swift in Sources */,
+				E835F5D5229407CA0095A3AA /* MainViewProtocol.swift in Sources */,
+				E835F5D7229407CA0095A3AA /* ZenDataCtrl.swift in Sources */,
 				E835F5AE229406780095A3AA /* AppDelegate.swift in Sources */,
+				E835F5DC229407CA0095A3AA /* KanaModel.swift in Sources */,
+				E835F5D6229407CA0095A3AA /* ArcadeDataCtrl.swift in Sources */,
+				E835F5D2229407CA0095A3AA /* ZeichenTabelleViewController.swift in Sources */,
+				E835F5DA229407CA0095A3AA /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E835F5B1229406780095A3AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E835F5B2229406780095A3AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E835F5B6229406790095A3AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E835F5B7229406790095A3AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E835F5BA229406790095A3AA /* Debug */ = {
@@ -291,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = angelina.BeSensei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = angelina.BeSensei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
